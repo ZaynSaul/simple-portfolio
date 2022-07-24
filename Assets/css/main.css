@@ -183,14 +183,31 @@ html{
 
 /* Skill section  */
 .skill{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-flow: wrap;
   text-align: center;
   margin-top: 20px;
   padding: 10px;
   background-color: var(--primary);
   border-radius: 10px;
 }
+.about-me{
+  flex:1;
+  border: 2px dashed #D89B0C;
+  box-shadow: 0.3rem 0.4rem 0.5rem #eee;
+  margin: 10px;
+}
+.about-me-wrapper{
+  text-align: justify;
+  padding: 10px;
+}
+.skill-wrapper{
+  flex: 2;
+}
 .skill-container{
-  width: 100%;
 }
 .skill-container .skill-card{
   border-radius: 10px;
