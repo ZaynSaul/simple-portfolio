@@ -282,16 +282,14 @@ html{
   justify-content: space-between;
   margin:  20px;
  }
- .service-container > .service-card > .service-card-body > button{
-   background: transparent;
+ .service-container > .service-card > .service-card-body > a{
    border-radius: 5px;
-   border: 1px solid #fff;
-   color: #fff;
+   /* background: #fff; */
    padding: 10px;
  }
  .service-container > .service-card > .service-card-body > button:hover{
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: transparent;
 }
  .service-container > .service-card > .service-card-body img{
   width: 30px;
@@ -372,7 +370,7 @@ html{
   background-color: #fff;
   color: #fff;
   border-radius: 50%;
-  border: 1px solid #fff;  
+  border: 2px solid #eee;  
 }
 
 .contact-container .social-contact a img:hover{
