@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="Assets/css/main.css">
     <title>Simple Portfolio</title>
   </head>
-  <body>
+  <body id="top">
     <header class="navbar">
       <a class="navbar-brand" href="">LOGO</a>
       <nav class="navbar-nav">
         <ul class="nav-item">
-          <li><a href="" class="nav-link active">HOME</a></li>
-          <li><a href="" class="nav-link">ABOUT</a></li>
-          <li><a href="" class="nav-link">CONTACT</a></li>
+          <li><a href="#top" class="nav-link active">HOME</a></li>
+          <li><a href="#about" class="nav-link">ABOUT</a></li>
+          <li><a href="#contact" class="nav-link">CONTACT</a></li>
         </ul>
       </nav>
       <div class="harmburger">
@@ -35,11 +35,16 @@
             </form>
           </div>
         </div>
-        <section class="skill">
+        <section class="skill" id="about">
           <div class="about-me">
             <h3>What I DO??</h3>
             <div class="about-me-wrapper">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <ul>
+                <li>Build Web Applications</li>
+                <li>Build Mobile Applications</li>
+                <li>Provide IT Solutions</li>
+                <li>Help to manage and maintain sites</li>
+              </ul>
             </div>
           </div>
           <div class="skill-wrapper">
@@ -119,7 +124,7 @@
             </div>
           </div>
         </section>
-        <section class="contact-container">
+        <section class="contact-container" id="contact">
           <div class="social-contact">
             <h3>Subscriptions</h3>
             <div class="form-group">
@@ -161,6 +166,9 @@
       <p>&copy; Copy Right 2022</p>
       <p>Made with <img src="Assets/icons/heart.svg" alt="" class="svg-icon"></p>
     </footer>
+    <a href="#" class="scroll-top"><img src="Assets/icons/arrow-circle-down.svg" alt="" class="svg-icon"></a>
+    <script src="Assets/js/jquery-3.5.1.min.js"></script>
     <script src="Assets/js/harmburger.js"></script>
+    <script src="Assets/js/scroll.js"></script>
   </body>
 </html>

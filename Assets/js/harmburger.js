@@ -14,7 +14,7 @@ document.querySelectorAll('.nav-link').forEach(n => n.addEventListener("click", 
 
 const navLinks = document.querySelector('.nav-link');
 
-document.querySelectorAll('.nav-link').forEach(n => n.addEventListener("click", () => {
+document.querySelector('.nav-link').forEach(n => n.addEventListener("click", () => {
     navLinks.classList.add('active');
     navLinks.classList.remove('active');
 }));
